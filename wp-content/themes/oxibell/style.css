@@ -1,0 +1,79 @@
+/*Theme Name: Oxibell*/
+/*Theme URI: http://underscores.me/*/
+/*Author: Underscores.me*/
+/*Author URI: http://underscores.me/*/
+/*Description: Description*/
+/*Version: 1.0.0*/
+/*Tested up to: 5.4*/
+/*Requires PHP: 5.6*/
+/*License: GNU General Public License v2 or later*/
+/*License URI: LICENSE*/
+/*Text Domain: oxibell*/
+/*Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.oxi-navigation{
+	background-color: yellow;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.oxi-navigation ul{
+	margin: 10px 0;
+}
+.oxi-navigation ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.oxi-navigation ul li a{
+	text-decoration: none;
+	color: gray;
+}
+.oxi-navigation ul li a:hover{
+	text-decoration: none;
+	color: gray;
+}
+.oxi-banner{
+	height: 600px;
+	background: url("https://kulinarnia.ru/wp-content/uploads/2016/05/tort-krasnyy-barkhat-recept-s-foto-poshagovo.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: 30px;
+	color: red;
+}
+.oxi-about-us{
+	height: auto;
+}
+.oxi-carousel{
+	height: 300px;
+	background-color: orange;
+	font-size: 30px;
+	color: red;
+}
+.oxi-carousel .slide{
+	text-align: center;
+}
+.oxi-assortment{
+	height: auto;
+	background-color: darkgreen;
+	font-size: 30px;
+	color: red;
+}
+.oxi-order{
+	height: 300px;
+	font-size: 30px;
+	color: red;
+}
