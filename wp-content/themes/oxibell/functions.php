@@ -184,3 +184,29 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+add_action('init', 'oxi_custom_post_init');
+function oxi_custom_post_init()
+{
+    register_post_type('collection', array(
+        'labels' => array(
+            'name' => 'Коллекция',
+            'singular_name' => 'collection-block',
+            'add_new' => 'Добавить новую информацию',
+            'add_new_item' => 'Добавить контент',
+            'edit_item' => 'Редактировать информацию',
+            'new_item' => 'Новая информация',
+            'view_item' => 'Посмотреть информацию',
+            'parent_item_colon' => '',
+            'menu_name' => 'Коллекция',
+
+        ),
+        'public' => false,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'menu_icon' => 'dashicons-buddicons-community',
+        'supports' => array('title', 'thumbnail')
+    ));
+}
+
+

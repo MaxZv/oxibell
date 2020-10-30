@@ -6,13 +6,22 @@ $(document).ready(function () {
     //     slidesToScroll: 3
     // });
 
+    // $('.multiple-items').slick({
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 300,
+    //     slidesToShow: 1,
+    //     adaptiveHeight: true
+    // });
+
     $('.multiple-items').slick({
         dots: true,
         infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
     });
+
 
     // $('.multiple-items').slick({
     //     centerMode: true,

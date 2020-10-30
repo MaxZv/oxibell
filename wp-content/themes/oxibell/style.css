@@ -14,6 +14,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 ul{
 	margin: 0;
@@ -26,8 +27,7 @@ a{
 	text-decoration: none;
 }
 .oxi-navigation{
-	background-color: yellow;
-	color: white;
+	/*background-color: yellow;*/
 	display: flex;
 	justify-content: center;
 }
@@ -40,11 +40,11 @@ a{
 }
 .oxi-navigation ul li a{
 	text-decoration: none;
-	color: gray;
+	color: #202020;
 }
 .oxi-navigation ul li a:hover{
 	text-decoration: none;
-	color: gray;
+	color: #e0dede;
 }
 .oxi-banner{
 	height: 600px;
@@ -58,13 +58,14 @@ a{
 	height: auto;
 }
 .oxi-carousel{
-	height: 300px;
+	height: 500px;
 	background-color: orange;
 	font-size: 30px;
 	color: red;
 }
 .oxi-carousel .slide{
 	text-align: center;
+	max-width: 350px;
 }
 .oxi-assortment{
 	height: auto;
@@ -73,7 +74,33 @@ a{
 	color: red;
 }
 .oxi-order{
+	background: url("https://sweetpanda.ru/wp-content/uploads/2018/10/1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 300px;
 	font-size: 30px;
 	color: red;
+}
+.oxi-order-button{
+	display: flex;
+	justify-content: center;
+}
+
+.oxi-order-button a{
+	width: 262px;
+	height: 40px;
+	border-radius: 8px;
+	border: 1.2px solid #fff;
+	background-color: #fe5d5b;
+}
+.oxi-order-button a .button-name{
+	width: 92px;
+	height: 21px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.13;
+	text-align: center;
+	color: #fff;
+	margin: auto;
 }
